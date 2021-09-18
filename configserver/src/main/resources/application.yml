@@ -9,6 +9,6 @@ spring:
         git:
           uri: https://github.com/sarpio/config-service.git
           clone-on-start: true
-          default-label: main
+          default-label: master
 server:
   port: 8888
