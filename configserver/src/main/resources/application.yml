@@ -2,7 +2,7 @@ spring:
   application:
     name: configserver
   profiles:
-    active: git
+    active: default, prod
   cloud:
     config:
       server:
