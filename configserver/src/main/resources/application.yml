@@ -7,10 +7,8 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/sarpio/config-service
-          uri: https://github.com/sarpio/microservice-sarpio-demo-v1
-          search-paths: configserver/src/main/resources/configuration
+          uri: https://github.com/sarpio/config-service.git
           clone-on-start: true
-          default-label: master
+          default-label: main
 server:
   port: 8888
