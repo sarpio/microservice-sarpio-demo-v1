@@ -10,5 +10,6 @@ spring:
           uri: https://github.com/sarpio/config-service.git
           clone-on-start: true
           default-label: main
+          search-paths: "/configserver/src/main/resources/configuration/"
 server:
   port: 8888
