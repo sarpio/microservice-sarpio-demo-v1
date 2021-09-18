@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-exception: false
+spring:
+  jackson:
+    time-zone: Europe/Warsaw
+  application:
+    name: users
+  profiles:
+    active: prod
